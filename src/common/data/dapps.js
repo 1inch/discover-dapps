@@ -3,6 +3,18 @@ import * as Categories from './categories'
 const Dapps = [
   {
     metadata: {
+      name: '1inch.exchange',
+      url: 'https://1inch.exchange/',
+      image: '/images/dapps/1inch.exchange.png',
+      description: 'DEX Aggregator with the best prices on the market. Achieving best rates by splitting orders among multiple DEXes in one single transaction.',
+      category: Categories.EXCHANGES,
+      dateAdded: '2019-12-17',
+      categoryPosition: 1,
+    },
+    rate: 1,
+  },
+  {
+    metadata: {
       name: 'Airswap',
       url: 'https://instant.airswap.io/',
       image: '/images/dapps/airswap.png',
